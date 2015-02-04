@@ -1,5 +1,8 @@
 variable "aws_region" {}
 variable "cidr" {}
+variable "aws_subnet_zone" {
+    default = "a"
+}
 
 resource "aws_vpc" "my-vpc" {
     cidr_block = "${var.cidr}"
@@ -14,7 +17,7 @@ output "vpc_id" {
 resource "aws_subnet" "main" {
     vpc_id = "${aws_vpc.my-vpc.id}"
     cidr_block = "${var.cidr}"
-    availability_zone = "${var.aws_region}b"
+    availability_zone = "${var.aws_region}${var.aws_subnet_zone}"
 }
 
 resource "aws_internet_gateway" "gw" {
