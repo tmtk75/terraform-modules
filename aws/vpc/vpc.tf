@@ -12,7 +12,6 @@ resource "aws_vpc" "my-vpc" {
     enable_dns_hostnames = true
     tags {
         Name = "${var.vpc_name}"
-	r = "${var.region}"
     }
 }
 
