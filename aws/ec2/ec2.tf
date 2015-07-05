@@ -4,7 +4,7 @@ variable "allowed_cidr"  {}
 variable "public_key"    {}
 variable "vpc_id"        {}
 variable "subnet_id"     {}
-variable "ami"           { default = "ami-bd523087" }  # CentOS 7 (x86_64) with Updates HVM
+variable "ami"           {}
 variable "instance_type" { default = "t2.micro" }
 
 resource "aws_security_group" "foo" {
