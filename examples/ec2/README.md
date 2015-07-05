@@ -11,7 +11,7 @@ $ ssh -i id_rsa centos@`terraform output public_dns`
 mount ebs
 ```
 $ lsblk
-$ file -s /dev/xvdj
+$ sudo file -s /dev/xvdj
 $ sudo mkfs -t ext4 /dev/xvdj
 $ sudo mkdir /ext/disk1
 $ sudo mount /dev/xvdj /ext/disk1
