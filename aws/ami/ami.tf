@@ -23,7 +23,7 @@ variable "amis" {
         # https://aws.amazon.com/marketplace/ordering?productId=b7ee8a69-ee97-4a49-9e68-afaee216db2e&ref_=dtl_psb_continue&region=us-east-1
         "us-east-1:centos7:hvm"      = "ami-c7d092f7"
         "us-west-1:centos7:hvm"      = "ami-6bcfc42e"
-        "us-west-2:centos7:hvm"      = "ami-e4ff5c93"
+        "us-west-2:centos7:hvm"      = "ami-d440a6e7"
         "eu-central-1:centos7:hvm"   = "ami-7cc4f661"
         "eu-west-1:centos7:hvm"      = "ami-96a818fe"
         "ap-southeast-1:centos7:hvm" = "ami-aea582fc"
