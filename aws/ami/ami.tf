@@ -21,15 +21,15 @@ variable "amis" {
 
         # CentOS 7 (x86_64) with Updates HVM
         # https://aws.amazon.com/marketplace/ordering?productId=b7ee8a69-ee97-4a49-9e68-afaee216db2e&ref_=dtl_psb_continue&region=us-east-1
-        "us-east-1:centos7:hvm"      = "ami-c7d092f7"
-        "us-west-1:centos7:hvm"      = "ami-6bcfc42e"
+        "us-east-1:centos7:hvm"      = "ami-61bbf104"
+        "us-west-1:centos7:hvm"      = "ami-f77fbeb3"
         "us-west-2:centos7:hvm"      = "ami-d440a6e7"
-        "eu-central-1:centos7:hvm"   = "ami-7cc4f661"
-        "eu-west-1:centos7:hvm"      = "ami-96a818fe"
-        "ap-southeast-1:centos7:hvm" = "ami-aea582fc"
-        "ap-southeast-2:centos7:hvm" = "ami-bd523087"
-        "ap-northeast-1:centos7:hvm" = "ami-89634988"
-        "sa-east-1:centos7:hvm"      = "ami-bf9520a2"
+        "eu-central-1:centos7:hvm"   = "ami-e68f82fb"
+        "eu-west-1:centos7:hvm"      = "ami-33734044"
+        "ap-southeast-1:centos7:hvm" = "ami-2a7b6b78"
+        "ap-southeast-2:centos7:hvm" = "ami-d38dc6e9"
+        "ap-northeast-1:centos7:hvm" = "ami-b80b6db8"
+        "sa-east-1:centos7:hvm"      = "ami-fd0197e0"
 
         # CoreOS
         # https://coreos.com/docs/running-coreos/cloud-providers/ec2/
